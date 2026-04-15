@@ -1,0 +1,62 @@
+/* ----------- FOOTER GENERAL STYLING ----------- */
+
+.footer {
+    margin: 0;
+    background-color: hwb(285 69% 11%);  /* your original color */
+    border-top: 2px solid #a711b2;
+    border-bottom: 2px solid #a711b2;
+    padding: 1rem 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center; /* makes everything centered */
+}
+
+/* Container */
+.containerfoot {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;  /* center everything */
+    align-items: center;
+    flex-direction: column;   /* stack vertically */
+    gap: 1rem;
+}
+
+/* ----------- CENTERED CONTENT ----------- */
+
+.footer-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Nunito',sans-serif;
+}
+
+.footer-logo {
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
+
+.footer-title {
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+    color: #000;
+}
+
+.footer-tagline {
+    font-size: 1.2rem;
+    color: #f2165f;
+    margin-bottom: 0.5rem;
+}
+
+.footer-copy {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Remove old form styling */
+.footer-left,
+.sign-up-form,
+.sign-up-form input,
+.sign-up-btn {
+    display: none !important;
+}

@@ -1,0 +1,33 @@
+/* STORY SLIDER */
+.story-slider {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Story card design */
+.story-card {
+  min-width: 280px;
+  background: #fff0f6;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #ffbad9;
+  box-shadow: 0 0 10px rgba(255,0,120,0.1);
+}
+
+/* Auto sliding animation */
+.story-slider {
+  animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.story-card h3 {
+  margin: 0 0 5px;
+  color: #c6007e;
+}

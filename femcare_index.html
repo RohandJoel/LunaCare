@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LunaCare</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_footer.css">
+    <link rel="stylesheet" href="selfcare.css">
+    <script src="script_footer.js"></script>
+    <script src="script1.js"></script>
+    
+   
+    
+    
+</head>
+<!-- LunaCare Chatbot Widget -->
+<link rel="stylesheet" href="chatbot/chatbot.css">
+<script src="chatbot/chatbot.js" defer></script>
+
+<div class="chatbot-container" id="Femcare-chatbot">
+  <button class="chatbot-toggle" id="chatToggle">
+    <img src="chatbot/assets/chat_bubble.png" alt="Chat with LunaCare Assistant" />
+  </button>
+
+  <div class="chatbox" id="chatBox">
+    <div class="chat-header">LunaCare Assistant</div>
+
+    <div class="chat-body" id="chatBody">
+      <div class="bot-msg">
+        Hello there 👋 I’m your LunaCare Assistant. How can I help you today?
+      </div>
+      <div class="bot-msg">
+        I can provide information about menstrual health, hygiene, and nutrition. Ask me anything!
+      </div>
+    </div>
+
+    <div class="quick-replies" id="quickReplies">
+      <button>Cycle phases</button>
+      <button>Hygiene products</button>
+      <button>Cramp relief</button>
+      <button>Period nutrition</button>
+    </div>
+
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Type your message..." />
+      <button id="sendBtn">Send</button>
+    </div>
+  </div>
+<body>
+
+
+  <!-- header -->
+  <header class="header">
+    <div class="container">
+
+        <div id="logoimg">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+
+        <nav class="nav-links">
+            <a href="Femcare_index.html" class="nav-link">Home</a>
+            <a href="in.html" class="nav-link">About Us</a>
+            <a href="education.html" class="nav-link">Education</a>
+            <a href="product.html" class="nav-link">Products</a>
+            <a href="https://lunacare-community.vercel.app/" class="nav-link">Community</a>
+        </nav>
+
+    </div>
+</header>
+
+
+
+<!-- ----------------------------------------first --------------------------->
+
+    <div class="background">
+        <div class="overlay">
+           
+        </div>
+    </div>
+    <!---------------------------- mid info ----------------------------->
+    <div class="infocontainer" style="font-family:'Nunito', sans-serif">
+        <div class="content">
+          <h1>Embrace Period Talk: Breaking the Silence, Celebrating Normalcy</h1>
+          <p>
+            Periods are a natural, essential part of life, yet for too long, they’ve been
+            shrouded in stigma and silence. It’s time to change the narrative. Embrace
+            Period Talk is about fostering open conversations, breaking taboos, and 
+            promoting understanding about menstruation. This biological process affects 
+            nearly half of the population and plays a crucial role in human life itself.
+            By talking openly and unapologetically, we empower individuals to feel confident,
+            informed, and supported. Periods are not something to hide or be ashamed of—they’re
+            a beautiful reminder of the strength and resilience of the human body. 
+          </p>
+          <p><b>
+            Let’s celebrate 
+            this normal part of life together and ensure that no one feels alone in their journey.
+            </b>
+          </p>
+        </div>
+        <div class="image-section">
+          <img src="images/girls.jpg" alt="Group promoting menstrual awareness">
+        </div>
+      </div>
+
+    <!--=------------------------------------------------ feature---------------------------------------------------------------- -->
+    <section class="features-section" style="padding-top:8px">
+        <h1 style="color:rgb(99, 5, 81)">Features</h1>
+        <div class="features-container">
+            <a href="education.html" class="feature-box">
+                <div class="icon educational-icon"></div>
+                <h3 >Educational Content</h3>
+                <p>Expert-curated articles to deepen understanding of menstrual health.</p>
+            </a>
+            <a href="chatbot.html" class="feature-box">
+                <div class="icon chatbot-icon"></div>
+                <h3>Personalized Chatbot</h3>
+                <p>A friendly assistant for instant period-related guidance and support.</p>
+            </a>
+            <a href="https://period-tracker-lilac.vercel.app/" class="feature-box">
+                <div class="icon calendar-icon"></div>
+                <h3>Period Calendar</h3>
+                <p>A tool to track cycles and predict upcoming periods.</p>
+            </a>
+            <a href="product.html" class="feature-box">
+                <div class="icon products-icon"></div>
+                <h3>Menstrual Products</h3>
+                <p>Overview of eco-friendly and traditional menstrual products.</p>
+            </a>
+        </div>
+    </section>
+    
+
+    <!---------------------------------------- relaxation activity=--------------------------------------------- --------------------->
+    <div class="relaxation">
+        <h1 style="font-size:xxx-large;font-family:'Nunito', sans-serif;color:rgb(123, 8, 107); text-align:center; padding-top:20px;">Relaxation Activity</h1>
+        <div class="selfcontainer">
+          <div class="left-side">
+          <div class="box">
+            <img src="homepage/sleep.jpeg" alt="Sleep">
+            <span>Prioritize sleep and rest</span>
+          </div>
+      
+          <div class="box">
+            <img src="homepage/breathing.jpg" alt="Breathing Exercise">
+            <span>Practice breathing exercise</span>
+          </div>
+      
+          <div class="box">
+              <img src="homepage/hyderation.jpeg" alt="Hydrate Well">
+              <span>Hydrate Well</span>
+            </div>
+      </div>
+      
+      <!-- image -->
+      
+      <div class="image-container">
+              <img src="homepage/feminine.jpeg" alt="Period Self-Care" />
+            </div>
+      
+      
+      <div class="right-side">
+          <div class="box">
+            <img src="homepage/heaating.jpeg" alt="Use a Heating Pad">
+            <span>Use a Heating Pad.</span>
+          </div>
+          <div class="box">
+            <img src="homepage/food.jpg" alt="Indulge in Comfort Food">
+            <span>Indulge in Comfort Food</span>
+          </div>
+      
+          <div class="box">
+              <img src="homepage/music.jpeg" alt="Listen to Relaxing Music">
+              <span>Listen to Relaxing Music</span>
+            </div>
+        </div>
+      </div>
+      </div>
+
+    <div class="background3">
+        <div class="overlay">
+             
+        </div>
+    </div>
+
+
+    <!-- ---------------------=-----------------------------menstrual day -------------------------------------------------------------->
+    <div class="overlay2">
+        <div class="header1">
+          <h1 style="font-size:xx-large;font-family:'Nunito', san-serif">Menstrual Hygiene Day</h1>
+          <h4 style="font-family:'Nunito', san-serif">Raising Awareness and Breaking Stigma</h4>
+        </div>
+
+      <div class="content">
+        <h2 style="font-family:'Nunito', san-serif;color:rgb(237, 10, 89); text-align:center; font-weight:bolder">Empowering Menstrual Hygiene: Breaking Taboos, Embracing Change</h2>
+        <p style="font-family:'Nunito', san-serif;font-weight:400; text-align:center">Menstrual hygiene affects education, work, and health. By empowering individuals to 
+          manage menstruation safely, we pave the way for a healthier, 
+          more inclusive world where opportunities are not limited by biology.</p>
+        
+  
+        <div class="list-section">
+          <h2 style="font-family:'Nunito', san-serif;color:rgb(237, 10, 89)">Why Menstrual Hygiene Matters</h2>
+          <ul style="font-family:'Nunito', san-serif">
+            <li>Ensures health and well-being during menstruation.</li>
+            <li>Promotes dignity and confidence.</li>
+            <li>Reduces risk of infections and health issues.</li>
+            <li>Empowers individuals through education and resources.</li>
+            <li>Advocates for sustainable menstrual practices.</li>
+          </ul>
+        </div>
+  
+        <p style="font-family:'Nunito', san-serif"><b>Join us in this mission! Let’s provide resources, start conversations, and ensure that no one is held back by their period. Together, we can make menstrual hygiene a priority for all.</b></p>
+      </div>
+    </div>
+<!-- -------------FIRST PERIOD------------------------- -->
+
+<!-- ------------------FOOTER------------------ -->
+
+<footer class="footer">
+    <div class="containerfoot">
+
+        <div class="footer-centered">
+            <img src="images/logo.png" alt="LunaCare" class="footer-logo">
+            
+            <h2 class="footer-title">Track. Learn. Empower!!!</h2>
+            <h3 class="footer-tagline" style="color: #f2165f">
+                Your Trusted Companion for Menstrual Well-being.
+            </h3>
+
+            <p class="footer-copy">&copy; 2025 LunaCare. All rights reserved.</p>
+        </div>
+
+    </div>
+</footer>
